@@ -26,7 +26,7 @@ PHP: версия 7.4
 ```bash
 sudo grep -i DocumentRoot /etc/apache2/sites-enabled/*
 ```
-Обычно это /var/www/html или /var/www.
+Обычно это /var/www/html или /var/www
 
 Для Nginx:
 
@@ -73,7 +73,7 @@ PASSWORD = "пароль"           ; пароль (необязателен, т
 ## 5. Размещение скрипта
 Внутри DocumentRoot создайте папку maxcount:
 
-``bash
+```bash
 sudo mkdir [DOCUMENT_ROOT]/maxcount
 ```
 Скопируйте файл stat_max.php в эту папку:
